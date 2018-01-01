@@ -6,3 +6,5 @@ Lcfs frist Python project in GitHub, the project is about how to count GPA and w
 - [ ] 读取txt文件中的数据展示出来；
 - [ ] 用easygui实现交互
 - [ ] 录入数据和更改数据
+
+*but you didn't upload the code*
