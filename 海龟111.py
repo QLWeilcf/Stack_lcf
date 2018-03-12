@@ -3,6 +3,7 @@ __author__ = 's41b'
 import turtle
 import random
 '''
+画分形树的过程
 def moveTo(t,x,y):
     t.penup()
     t.goto(x,y)
