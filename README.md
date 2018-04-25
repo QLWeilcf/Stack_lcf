@@ -7,4 +7,10 @@ Lcfs frist Python project in GitHub, the project is about how to count GPA and w
 - [ ] 用easygui实现交互
 - [ ] 录入数据和更改数据
 
-*but you didn't upload the code*
+
+TechInterviewInPy.ipynb
+TechInterviewTwo.py
+
+
+
+
