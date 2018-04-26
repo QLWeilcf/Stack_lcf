@@ -1,14 +1,24 @@
 #TechInterview
 
 
-#数组转字符串的4种方法
+
 '''
-''.join(map(str,lst)) #注意直接写str也是可以的
+#数组转字符串的4种方法
+''.join(map(str,lst)) #注意直接写str也是可以的 ''中是连接符
 ''.join(i.__str__() for i in lst)
 ''.join(str(i) for i in lst)
 ''.join(i.__repr__() for i in lst)
 '''
 
+#json to kml 中json的列表变字符串要用的，C#转还复杂些
+# [119.45,35.12] ==>"119,45,35.12"
+
+#[[119.45,32.1],[118.3,37.167]] ==>"119.45,32.1 118.3,37.167"
+def lstToPoiStr(lst):
+    o_st=""
+    for i in lst:
+        o_st+=','.join(map(str,i)+' '
+    return o_st #先去掉最后一个空格再返回
 def listToInt(lst):
     return int(''.join(map(str,lst)))
 
